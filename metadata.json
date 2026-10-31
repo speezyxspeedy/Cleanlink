@@ -1,0 +1,6 @@
+{
+  "name": "CleanLink & Instant Share",
+  "description": "Lightweight Chrome Extension & playground to strip tracking parameters (UTMs, fbclid, ref, si) and share clean, private links.",
+  "requestFramePermissions": ["clipboard-read", "clipboard-write"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

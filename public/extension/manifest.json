@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "CleanLink & Instant Share",
+  "version": "1.0.0",
+  "description": "Zero-friction link cleaner: strips tracking tokens (UTMs, fbclid, ref, si) and copies clean links with 1-click or Alt+Shift+C.",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CleanLink: Clean & Share Current URL",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "clean-and-copy": {
+      "suggested_key": {
+        "default": "Alt+Shift+C",
+        "mac": "Alt+Shift+C"
+      },
+      "description": "Clean current tab URL and copy to clipboard"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

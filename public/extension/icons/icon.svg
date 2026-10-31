@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Clean obsidian rounded tile -->
+  <rect width="128" height="128" rx="28" fill="#0f172a" />
+  <rect x="1" y="1" width="126" height="126" rx="27" fill="none" stroke="#334155" stroke-width="2" />
+
+  <!-- Artisanal Precision CleanLink Emblem: Interlocking links with surgical severance cut -->
+  <g transform="translate(24, 24)">
+    <!-- Left anchor loop -->
+    <path d="M34 24H24C15.1634 24 8 31.1634 8 40V40C8 48.8366 15.1634 56 24 56H34" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="9" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Right anchor loop with accent cyan tone -->
+    <path d="M46 56H56C64.8366 56 72 48.8366 72 40V40C72 31.1634 64.8366 24 56 24H46" 
+          fill="none" 
+          stroke="#38bdf8" 
+          stroke-width="9" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- Precision bridge link with clean severance notch -->
+    <line x1="28" y1="40" x2="52" y2="40" 
+          stroke="#ffffff" 
+          stroke-width="9" 
+          stroke-linecap="round"/>
+
+    <!-- Truncation indicator pin -->
+    <circle cx="56" cy="24" r="4.5" fill="#38bdf8" />
+  </g>
+</svg>
